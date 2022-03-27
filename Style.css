@@ -1,4 +1,9 @@
 .cover{
-    height: 200px;
-    background-color: blue;
+    height: 400px;
+    background-image: url("rsz_rengoku.jpg");/*Agregamos la direccion de una imagen para ponerla de fondo*/
+    color: white;/*Cambiamos el color de las letras*/
+    background-size:cover; ;/*Hacemos que se ajuste al tamaño de nuestro titulo sin importar las dimensiones de la imagen*/
+    background-position: center;/*Hacemos que la imagen se centre*/
+    background-color: rgba(0,0,0,0.5); /*Le decimos que la imagen se contraste y se opque mediante un color oscuro*/
+    background-blend-mode: darken;/*Elejimos el color de la opacidad*/
 }
